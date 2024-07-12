@@ -1,0 +1,12 @@
+# users/urls.py
+
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('signup/', views.signup, name='signup'),
+    path('activate/<uidb64>/<token>/', views.activate, name='activate'),
+    path('activation_success/', views.activation_success, name='activation_success'),
+
+    
+]
