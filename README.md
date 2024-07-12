@@ -1,4 +1,4 @@
-Email Verification for Django
+Email Verification for Django 
 A simple email verification system for Django projects.
 
 Overview
